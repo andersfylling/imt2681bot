@@ -1,0 +1,28 @@
+hash: d8902ca9ce813db5240dcd5fb6732d72daf3430f1144ff24b5369d8159f38e9c
+updated: 2017-11-17T16:17:07.760095772+01:00
+imports:
+- name: github.com/andersfylling/concurrencyparser
+  version: 9f05e1e7a4ec29b21d8c80cb524c5199252d52a3
+- name: github.com/bwmarrin/discordgo
+  version: 07c1da20fffdcf67875e3a2312b7ee62f9c6e247
+- name: github.com/gorilla/websocket
+  version: 71fa72d4842364bc5f74185f4161e0099ea3624a
+- name: github.com/s1kx/unison
+  version: f63e2500eacc141bb5145d7fd64ae5f0863083e1
+  subpackages:
+  - events
+- name: github.com/Sirupsen/logrus
+  version: f006c2ac4710855cf0f916dd6b77acf6b048dc6e
+- name: golang.org/x/crypto
+  version: 9419663f5a44be8b34ca85f08abc5fe1be11f8a3
+  subpackages:
+  - nacl/secretbox
+  - poly1305
+  - salsa20/salsa
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 686000749eaec0b8855b8eef5336cf63899fe51d
+  subpackages:
+  - unix
+  - windows
+testImports: []

@@ -1,0 +1,5 @@
+package: github.com/andersfylling/imt2681bot
+import:
+- package: github.com/andersfylling/concurrencyparser
+- package: github.com/s1kx/unison
+  version: development
