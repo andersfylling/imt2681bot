@@ -9,6 +9,10 @@ COPY . .
 RUN curl https://glide.sh/get | sh
 RUN glide install
 
+# build bot application
+RUN go build
+# saves as `imt2681bot`, run it: `./imt2681bot`
+
 # The URL needs to be replaced. Please see extra details given with this submission.
 ENV IMT_BOT_TOKEN replace_me_using_a_valid_discord_bot_token
 ENV IMT_BOT_COMMAND_PREFIX imt!
